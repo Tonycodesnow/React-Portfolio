@@ -25,6 +25,11 @@
   justify-content: space-between;
 }
 
+.i-social {
+  /* display: flex; */
+  width: 80vh;
+}
+
 .i-intro {
   font-size: 30px;
   font-weight: 300;
@@ -84,11 +89,22 @@
 }
 
 .i-bg {
-  clip-path: circle(43.9% at 47% 45%);
+  clip-path: circle(42.9% at 46.5% 44.3%);
   background-color: #61c6eb;
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   right: 0;
+}
+
+/* media query to make picture dissappear */
+@media screen and (max-width: 500px) {
+  .intro-img {
+    display: none;
+  }
+
+  .i-bg {
+    display: none;
+  }
 }
