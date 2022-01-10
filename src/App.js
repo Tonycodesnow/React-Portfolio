@@ -1,37 +1,30 @@
 // import React, { useState } from "react";
 // import Nav from "./components/navFile/Nav";
-import Intro from "./components/introFile/Intro";
+import { useContext } from "react";
 import About from "./components/aboutFile/About";
+import Contact from "./components/contactFile/Contact";
+import Intro from "./components/introFile/Intro";
 import ProductList from "./components/productList/ProductList";
+import Toggle from "./components/toggle/Toggle";
+import { ThemeContext } from "./context";
 
 function App() {
-  // const [categories] = useState([
-  //   {
-  //     name: "About Me",
-  //     description: "a simple about me page",
-  //   },
-  //   { name: "Gallery", description: "Enjoy a gallery of my work" },
-  //   { name: "Contact Me", description: "Reach me" },
-  // ]);
-
-  // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
-  // const [contactSelected, setContactSelected] = useState(false);
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   return (
-    <div>
-      {/* <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav> */}
-
+    <div
+    style={{
+      backgroundColor: darkMode ? "#222" : "white",
+      color: darkMode && "white",
+    }}
+  >
       <main>
+        <Toggle />
         <Intro />
         <About />
         <ProductList />
+        <Contact />
       </main>
     </div>
   );
