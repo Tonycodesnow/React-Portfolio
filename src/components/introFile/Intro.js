@@ -20,7 +20,7 @@ const Intro = () => {
           A Junior Web developer with a proven ability to adapt in both self-starting and collaborative environments. I am a creative and passionate person who is always looking for new challenges and opportunities to grow.
           </p>
         </div>
-        <svg
+        {/* <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -75,7 +75,7 @@ const Intro = () => {
               />
             </g>
           </g>
-        </svg>
+        </svg> */}
       </div>
       <div className="introStuff-right">
         <div className="i-bg"></div>
