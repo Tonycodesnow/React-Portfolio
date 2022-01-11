@@ -2,6 +2,8 @@ import "./contact.css";
 import Phone from "../../img/phone.png";
 import Email from "../../img/email.png";
 import Address from "../../img/address.png";
+import Link from "../../img/link.png";
+import Git from "../../img/git.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -31,7 +33,7 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss the project</h1>
+          <h1 className="c-title">Let's discuss project ideas</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="phone" className="c-icon" />
@@ -45,12 +47,22 @@ const Contact = () => {
               <img className="c-icon" src={Address} alt="" />
               Berkley, CA 94704 USA
             </div>
+            <div className="c-info-item">
+            <a href="https://www.linkedin.com/in/antonio-huerta-954a53216/">
+              <img className="c-icon" src={Link} alt="" />
+              </a>
+            </div>
+            <div className="c-info-item">
+            <a href="https://github.com/Tonycodesnow">
+              <img className="c-icon" src={Git} alt="" />
+              </a>
+            </div>
           </div>
         </div>
         <div className="c-right">
         <p className="c-desc">
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
+            <b>What’s your story?</b> Get in touch with me. Always available for
+            freelancing if the right project comes along.
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
