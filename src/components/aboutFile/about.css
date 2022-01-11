@@ -23,36 +23,45 @@
   padding: 10vh;
 }
 
-/* left side card-Image */
-.about-card.bg {
-  background-color: #c54646;
-  position: absolute;
-  padding: 40px 10px 10px 50px;
-  top: 50px;
-  left: 50px;
-  right: 20px;
-  z-index: -1;
+/* left side cards */
+.about-card-bg {
+  background-color: #C54646;
+  border-radius: 30px;
+  position: relative;
+  height: 70vh;
+  width: 60vh;
+  top: -40px;
+  right: 40px;
 }
-.about-card {
+.about-card-in {
   border-radius: 30px;
   height: 70vh;
   width: 60vh;
-  position: relative;
+  position: absolute;
   overflow: hidden;
 }
+.about-card-out {
+  position: relative;
+  display: flex;
+  bottom: 30px;
+}
+.a-toon {
+  position: absolute;
+  margin-left: 50vh;
+  height: 70%;
+}
 
-.about-img {
+/* cartoon img */
+
+.toon-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* cartoon img */
-.a-toon {
-  margin-left: 60vh;;
-  height: 60%;
-}
-.toon-img {
+.about-img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 

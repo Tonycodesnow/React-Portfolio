@@ -1,21 +1,22 @@
 import "./about.css";
 import Bridge from "../../img/ggsml.jpg";
 import Toon from "../../img/myToon.png";
-
 const About = () => {
   return (
     <div className="aboutPage">
       <div className="about-left">
-          <div className="a-toon">
-            <img src={Toon} alt="" className="toon-img" />
-        <div className="about-card bg">
-          <div className="about-card">
+        <div className="about-card-out">
+          <div className="about-card-bg">
+          </div>
+          <div className="about-card-in">
             <img src={Bridge} alt="" className="about-img" />
           </div>
-          </div>
         </div>
+        <div className="a-toon">
+          <img src={Toon} alt="" className="toon-img" />
+        </div>
+      </div>
         <div className="about-right">
-          
           <h1 className="a-title">About Me</h1>
           <p className="a-sub">
             I am a full stack developer with a passion for creating.
@@ -25,8 +26,6 @@ const About = () => {
           </p>
         </div>
       </div>
-    </div>
   );
 };
-
 export default About;
