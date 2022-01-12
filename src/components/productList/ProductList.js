@@ -35,9 +35,6 @@ function ProductList() {
     <div className="pl">
       <div className="pl-text">
         <h1 className="pl-title">My Work</h1>
-        <p className="pl-desc">
-          Here are some of my projects.
-        </p>
       </div>
       <div className="pl-list">
         {data.map((item) => (

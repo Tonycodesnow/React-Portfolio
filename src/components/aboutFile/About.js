@@ -24,6 +24,9 @@ const About = () => {
           <p className="a-desc">
           Happily married and blessed with 3 wonderfull children. I live in the greater bay area and began my entry into programming in the summer of 2021, starting with web design and now full stack. I'm very excited to see where this amazing journey will take me next.
           </p>
+          <p className="a-tech">
+            
+          </p>
         </div>
       </div>
   );

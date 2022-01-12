@@ -5,7 +5,7 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #FFAB76;
+  background-color: #eb9966;
   position: absolute;
 }
 
@@ -47,6 +47,16 @@
 
 .c-desc {
   font-weight: 200;
+}
+
+.c-footer {
+  background-color:  #eb9966;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+  border-width: 5px;
+  padding: 20px;
 }
 
 form {
@@ -119,6 +129,6 @@ button {
 .f-bg {
   width: 20px;
   height: 100%;
-  background-color: #FFAB76;
+  background-color: #eb9966;
   position: absolute;
 }

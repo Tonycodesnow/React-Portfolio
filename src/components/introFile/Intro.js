@@ -3,7 +3,22 @@ import Me from "../../img/Antspix2.png";
 
 const Intro = () => {
   return (
-    <div className="introStuff">
+    <div className="introStuff"><nav role="navigation">
+    <div id="menuToggle">
+
+      <input type="checkbox" />
+      
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <ul id="menu">
+        <a href="#"><li>About me</li></a>
+        <a href="#"><li>My Work</li></a>
+        <a href="#"><li>Contact Me</li></a>
+      </ul>
+    </div>
+  </nav>
       <div className="introStuff-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hi, My name is</h2>
