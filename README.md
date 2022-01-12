@@ -22,13 +22,13 @@
 
 ## Screenshot
 
-<img src=".../../src/img/Portfolio.png" alt="Screenshot"/>
+<img src=".../../src/img/Portfolio.png"  width="50%"/>
 
 <br>
 
 # Deployed:
 
-https://tonycodesnow.github.io/React-Portfolio/
+https://act-folio.herokuapp.com/
 
 <br>
 

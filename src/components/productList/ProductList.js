@@ -11,8 +11,8 @@ const data = [
   {
     id: 2,
     name: "Weather Dashboard",
-    img: process.env.PUBLIC_URL + "/img/Right-Now-Weather.png",
-    link: "https://tonycodesnow.github.io/Right-Now-Weather/",
+    img: process.env.PUBLIC_URL + "/img/Budget-Tracker-sc.png",
+    link: "https://trackingbudgets.herokuapp.com/",
   },
   {
     id: 3,
