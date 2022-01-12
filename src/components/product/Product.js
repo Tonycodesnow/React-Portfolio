@@ -1,8 +1,5 @@
 import "./product.css";
-import p1 from "../../img/Giftby1.png"
-import p2 from "../../img/nationalparksearch.png"
-import p3 from "../../img/Right-Now-Weather.png"
-import p4 from "../../img/NotesPage.png"
+
 
 const Product = ({img,link}) => {
   return (

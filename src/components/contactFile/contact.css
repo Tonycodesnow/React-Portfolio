@@ -115,3 +115,10 @@ button {
     margin-top: 10px;
   }
 }
+
+.f-bg {
+  width: 20px;
+  height: 100%;
+  background-color: #FFAB76;
+  position: absolute;
+}

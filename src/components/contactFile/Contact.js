@@ -4,6 +4,7 @@ import Email from "../../img/email.png";
 import Address from "../../img/address.png";
 import Link from "../../img/link.png";
 import Git from "../../img/git.png";
+import YouTube from "../../img/youtube.png";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
@@ -55,6 +56,11 @@ const Contact = () => {
             <div className="c-info-item">
             <a href="https://github.com/Tonycodesnow">
               <img className="c-icon" src={Git} alt="" />
+              </a>
+            </div>
+            <div className="c-info-item">
+            <a href="https://www.youtube.com/channel/UCzfmtvUeOgz0LoqosTqB2CQ">
+              <img className="c-icon" src={YouTube} alt="" />
               </a>
             </div>
           </div>
