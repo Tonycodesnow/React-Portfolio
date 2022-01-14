@@ -10,15 +10,15 @@ const data = [
   },
   {
     id: 2,
-    name: "Weather Dashboard",
-    img: process.env.PUBLIC_URL + "/img/Budget-Tracker-sc.png",
-    link: "https://trackingbudgets.herokuapp.com/",
+    name: "Extraordinary Cakes",
+    img: process.env.PUBLIC_URL + "/img/Cakes.png",
+    link: "https://jili-cakeshop.herokuapp.com/",
   },
   {
     id: 3,
-    name: "Note Taker",
-    img: process.env.PUBLIC_URL + "/img/NotesPage.png",
-    link: "https://radiant-brook-87611.herokuapp.com/",
+    name: "Budget Tracker",
+    img: process.env.PUBLIC_URL + "/img/Budget-Tracker-sc.png",
+    link: "https://trackingbudgets.herokuapp.com/",
   },
   {
     id: 4,
